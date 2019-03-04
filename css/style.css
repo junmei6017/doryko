@@ -772,41 +772,41 @@ body.offcanvas {
     top: -22px;
     right: 0; }
   .progress-bar.color-1 {
-    background: #d0d0cd; }
+    background: #e0c196; }
     .progress-bar.color-1:after {
-      background: #d0d0cd; }
+      background: #e0c196; }
     .progress-bar.color-1 span {
-      color: #d0d0cd; }
+      color: #e0c196; }
   .progress-bar.color-2 {
-    background: #ec5453; }
+    background: #e0c196; }
     .progress-bar.color-2:after {
-      background: #ec5453; }
+      background: #e0c196; }
     .progress-bar.color-2 span {
-      color: #ec5453; }
+      color: #e0c196; }
   .progress-bar.color-3 {
-    background: #f9bf3f; }
+    background: #e0c196; }
     .progress-bar.color-3:after {
-      background: #f9bf3f; }
+      background: #e0c196; }
     .progress-bar.color-3 span {
-      color: #f9bf3f; }
+      color: #e0c196; }
   .progress-bar.color-4 {
-    background: #a84cb8; }
+    background: #e0c196; }
     .progress-bar.color-4:after {
-      background: #a84cb8; }
+      background: #e0c196; }
     .progress-bar.color-4 span {
-      color: #a84cb8; }
+      color: #e0c196; }
   .progress-bar.color-5 {
-    background: #2fa499; }
+    background: #e0c196; }
     .progress-bar.color-5:after {
-      background: #2fa499; }
+      background: #e0c196; }
     .progress-bar.color-5 span {
-      color: #2fa499; }
+      color: #e0c196; }
   .progress-bar.color-6 {
-    background: #4054b2; }
+    background: #e0c196; }
     .progress-bar.color-6:after {
-      background: #4054b2; }
+      background: #e0c196; }
     .progress-bar.color-6 span {
-      color: #4054b2; }
+      color: #e0c196; }
 
 .colorlib-feature {
   text-align: left;
@@ -1000,7 +1000,7 @@ body.offcanvas {
       -webkit-transform: translate3d(0, 15px, 0);
       transform: translate3d(0, 15px, 0); }
       .project .desc span a {
-        color: #000; }
+        color: rgb(253, 236, 186); }
     @media screen and (max-width: 768px) {
       .project .desc {
         opacity: 1;
@@ -1014,7 +1014,8 @@ body.offcanvas {
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); } }
   .project:hover .desc {
-    opacity: 1; }
+      opacity: 1;
+      background: rgba(0, 0, 0, 0.6); }
     .project:hover .desc h3 {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); }
@@ -1427,3 +1428,20 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
